@@ -5,5 +5,5 @@ Se citesc doua numere de la tastatura, x,y. Scrieti un program care va afisa cel
 doua valori in ordine crescatoare.
 
 • Exemplu: citim 9,0 Afisam : 0 9*/
-const uint numarElemente = 2;
-ShowNumbers(SortNumbers(ReadNumbers(numarElemente)));
+const uint NUMAR_ELEMENTE = 2;
+ShowNumbers(SortNumbers(ReadNumbers(NUMAR_ELEMENTE)));
